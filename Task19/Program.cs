@@ -14,13 +14,13 @@ Console.WriteLine("Введите пятизначное число");
 int num = Convert.ToInt32(Console.ReadLine());
 
 
-string Palindrome (int x)
+string Palindrome (int a)
 {
     
-        int dig1 = x/10000;
-        int dig2 = x/1000%10;
-        int dig4 = x/10%10;
-        int dig5 = x%10;
+        int dig1 = a/10000;
+        int dig2 = a/1000%10;
+        int dig4 = a/10%10;
+        int dig5 = a%10;
         if (dig1 == dig5 && dig2 == dig4) return "ДА";
         return "нет";
 }
@@ -34,3 +34,20 @@ else
 {
     System.Console.WriteLine("Введите пятизначное число");
 }
+
+//  Решение №2
+// string Palindrome (int a)
+// {
+    
+// int b = a/1000;
+// int c = a%10*10 +a%100/10;
+
+// if (10000<a && a<100000) 
+// if (b==c) return "Да";
+// else return "Нет";
+// return "ВВЕДЕНО НЕКОРРЕКТНОЕ ЧИСЛО";
+
+// }
+
+// string res = Palindrome(num);
+// System.Console.WriteLine(res);
