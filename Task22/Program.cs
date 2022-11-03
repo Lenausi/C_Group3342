@@ -9,10 +9,10 @@ void Square (int x)
 {
     if (x>0)
     {
-   for (int i = 1; i <= x; i++)
-   {
-    System.Console.WriteLine($"{i} -> {i*i}");
-   }
+    for (int i = 1; i <= x; i++)
+    {
+        System.Console.WriteLine($"{i} -> {i*i}");
+    }
     }
     else
     {
