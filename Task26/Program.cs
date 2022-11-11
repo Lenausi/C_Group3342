@@ -10,6 +10,7 @@ int num = Convert.ToInt32(Console.ReadLine());
 
 int NumDig (int number)
 {
+number = Math.Abs(number);
 int count  = 0;
  while (number>0)
     {
