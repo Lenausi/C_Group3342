@@ -6,7 +6,6 @@ Console.WriteLine("Введите количество элементов мас
 int num = Convert.ToInt32(Console.ReadLine());
 
 
-
 int[] NewArray (int size)
 {
 int[] array = new int[size];
