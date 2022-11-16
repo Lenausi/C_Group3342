@@ -26,4 +26,4 @@ int SumofDig (int a)
 }
 
 int res = SumofDig (num);
-System.Console.WriteLine($"{res}");
+System.Console.WriteLine($"Сумма цифр в числе {num}  = {res}");
