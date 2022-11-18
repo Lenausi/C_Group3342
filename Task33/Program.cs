@@ -75,3 +75,19 @@ FindDigInArray(createArrayInt, num);
 // Console.WriteLine("Нет");
 // }
 
+
+// Второе решение правильное через bool
+// bool Find(int[] array, int find1)
+// {
+// bool b = false;
+// for (int i = 0; i < array.Length; i++)
+// {
+// if (array[i] == find1)
+// {
+// b = true;
+// break;
+// }
+// }
+// return b;
+// }
+
