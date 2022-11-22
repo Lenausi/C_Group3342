@@ -13,12 +13,14 @@ int num3 = Convert.ToInt32(Console.ReadLine());
 
 bool IsExsistTriangle (int a,int b, int c)
 {
-if (a<b+c && b<c+a && c <a+b)
-{
-    return true;
-}
+bool d = a<b+c && b<c+a && c <a+b;
+return d;
+// if (a<b+c && b<c+a && c <a+b)
+// {
+//     return true;
+// }
 
-else return false;
+// else return false;
 }
 
 bool result = IsExsistTriangle(num1, num2, num3);
