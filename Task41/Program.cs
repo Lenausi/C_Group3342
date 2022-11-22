@@ -5,16 +5,6 @@
 
 // -1, -7, 567, 89, 223-> 3
 
-// Console.WriteLine("Укажите кол-во чисел для ввода: ");
-// int m = Convert.ToInt32(Console.ReadLine( ));
-// Console.WriteLine("Начните вводчисел через enter: ");
-
-// int CountPositiveElementsInArray (int[] array)
-// {
-//     int[] array = new int[size];
-
-// }
-
 Console.WriteLine("Укажите кол-во чисел для ввода:");  
 int m = Convert.ToInt32(Console.ReadLine() );
 
