@@ -25,13 +25,13 @@ void PrintMatrix(int[,] matrix)
 {
 for (int i = 0; i < matrix.GetLength(0); i++)
 {
-Console.Write("[");
+Console.Write("|");
 for (int j = 0; j < matrix.GetLength(1); j++)
 {
-if (j < matrix.GetLength(1) - 1) Console.Write($"{matrix[i,j]},");
-else Console.Write($"{matrix[i,j]}");
+if (j < matrix.GetLength(1) - 1) Console.Write($"{matrix[i,j], 5} |");
+else Console.Write($"{matrix[i,j], 5}");
 }
-Console.WriteLine("]");
+Console.WriteLine(" |");
 }
 }
 int[,] array2D = CreateMatrixRndInt(3, 4, 0, 100);
