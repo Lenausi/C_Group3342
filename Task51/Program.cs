@@ -39,17 +39,17 @@ for (int i = 0; i < matrix.GetLength(0); i++)
 {
 for (int j = 0; j < matrix.GetLength(1); j++)
     {
-    if (i==j)
-    {
-         sum = sum + matrix[i,j];
-    }
+        if (i==j)
+        {
+            sum = sum + matrix[i,j];
+        }
     }
 }
 return sum;
 }
 
 
-int[,] array2D = CreateMatrixRndInt(3, 4, 0, 5);
+int[,] array2D = CreateMatrixRndInt(4, 4, 0, 5);
 PrintMatrix(array2D);
 System.Console.WriteLine();
 int result  = SumElementes(array2D);
