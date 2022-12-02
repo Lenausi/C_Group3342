@@ -67,8 +67,7 @@ return result;
 
 
 int[,] array2D = CreateMatrixRndInt(3, 4, 0, 100);
-System.Console.WriteLine("Таблица");
+System.Console.WriteLine("Таблица:");
 PrintMatrix(array2D);
-// InputData();
 int findElement = FindElement(array2D);
-System.Console.WriteLine($"{findElement}");
+System.Console.WriteLine($"Искомый элемент в таблице равен {findElement}");
