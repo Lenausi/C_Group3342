@@ -80,24 +80,10 @@ int FindMinRawSum (int [,] matrix)
     return result;
 }
 
-void PrintArray(int[] array)
-{
-Console.Write("[");
-for (int i = 0; i < array.Length; i++)
-{
-if(i < array.Length - 1) Console.Write($"{array[i]},");
-else Console.Write($"{array[i]}");
-}
-Console.WriteLine("]");
-}
-
 
 
 int[,] array2D = CreateMatrixRndInt(3, 3, 0, 5);
 System.Console.WriteLine("Таблица:");
 PrintMatrix(array2D);
-// int [] res = FindMinElenentMatrix(array2D);
-
-// PrintArray(res);
 int findMinArraySum = FindMinRawSum(array2D);
 System.Console.WriteLine($"Строка c наименьшей суммой:{findMinArraySum+1}");
