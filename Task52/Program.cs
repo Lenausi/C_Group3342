@@ -50,6 +50,7 @@ double [] FindAverageColumns(int [,] matrix)
         }  
         double averageColumn = sum/matrix.GetLength(0);
         array[j]= Math.Round(averageColumn,1); 
+        sum=0;
     }
     return array;
 }
