@@ -65,7 +65,7 @@ int FindMinRawSum (int [,] matrix)
 { 
 
     int sum = default;
-    int [] array = new int [matrix.GetLength(1)];
+    int [] array = new int [matrix.GetLength(0)];
 
         for (int i = 0; i < matrix.GetLength(0); i++)
         {
@@ -82,7 +82,7 @@ int FindMinRawSum (int [,] matrix)
 
 
 
-int[,] array2D = CreateMatrixRndInt(3, 3, 0, 5);
+int[,] array2D = CreateMatrixRndInt(3, 4, 0, 5);
 System.Console.WriteLine("Таблица:");
 PrintMatrix(array2D);
 int findMinArraySum = FindMinRawSum(array2D);
